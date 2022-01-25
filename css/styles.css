@@ -8,13 +8,16 @@
     --negro: #000;
     --gris: #e1e1e1;
 }
+
 html{
     box-sizing: border-box;
     font-size: 62.5%;/*1rem = 10px*/
 }
+
 *, *::before, *::after{
     box-sizing: inherit;
 }
+
 body{
     font-family: var(--fuenteParrafos);
     font-size: 1.6rem;
@@ -192,4 +195,19 @@ img{
         flex-direction: row;
         justify-content: space-around;
     }
+
+    .cont {
+        display: grid; 
+        grid-template-columns: 0.8fr 1.2fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "lateral-layout main-layout main-layout"; 
+      }
+    .lateral-layout {
+        background: red;
+        grid-area: lateral-layout; }
+    .main-layout {
+        background: brown;
+        grid-area: main-layout; }
 }
