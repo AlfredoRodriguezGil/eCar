@@ -71,7 +71,8 @@ img{
 .header__description{
     text-align: center;
     font-style: italic;
-    font-family: var(--font-header);
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 40px;
     font-weight: 700;
 }
 
