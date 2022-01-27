@@ -158,6 +158,30 @@ img{
 	background: #F2F2F2;
 	color: #444444;
 }
+
+/*Lateral & main Layout*/
+.cont{
+}
+
+.lateral-layout{
+    padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: var(--gris);
+    text-align: justify;
+    font-size: 20px;
+}
+.ceo{
+    background-color: black;
+    border-color: black;
+    border: 5px;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+}
+
+.main-layout{
+ background-color: var(--blanco);
+}
+
+
 @media screen and (max-width: 800px){
 	#menu {position:relative}
 	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
@@ -205,9 +229,7 @@ img{
           "lateral-layout main-layout main-layout"; 
       }
     .lateral-layout {
-        background: red;
         grid-area: lateral-layout; }
     .main-layout {
-        background: brown;
         grid-area: main-layout; }
 }
