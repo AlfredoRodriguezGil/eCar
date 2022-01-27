@@ -171,10 +171,10 @@ img{
     font-size: 20px;
 }
 .ceo{
-    background-color: black;
-    border-color: black;
-    border: 5px;
-    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    text-align: center;
+}
+.ceo-circular{
+    border-radius: 50%;
 }
 
 .main-layout{
