@@ -160,8 +160,6 @@ img{
 }
 
 /*Lateral & main Layout*/
-.cont{
-}
 
 .lateral-layout{
     padding: 20px;
@@ -206,7 +204,7 @@ transition-duration: 300ms;
 
 
 /*MEDIA QUERY*/
-@media (min-width: 768px){
+@media (min-width: 720px){
     .header{
         display: flex;
         justify-content: space-between;
