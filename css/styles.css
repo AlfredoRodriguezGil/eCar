@@ -175,6 +175,15 @@ img{
 }
 .ceo-circular{
     border-radius: 50%;
+    box-shadow: 0px -1px 7px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px -1px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -1px 7px 0px rgba(0,0,0,0.75);
+}
+.ceo-circular:hover{
+    transform: scale(1.1) ;
+-webkit-transform: scale(1.1) ;
+-moz-transform: scale(1.1) ;
+transition-duration: 300ms;
 }
 
 .main-layout{
