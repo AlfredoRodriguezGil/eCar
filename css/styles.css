@@ -296,3 +296,7 @@ footer{
     height: 40px;
     border-radius: 50%;
 }
+.footer-legal{
+    color: var(--gris);
+    font-size: 12px;
+}
