@@ -159,7 +159,10 @@ img{
 }
 
 /*Lateral & main Layout*/
-
+.cont{
+    margin: 0px;
+    padding: 0px;
+}
 .lateral-layout{
     padding: 20px;
     font-family: 'Bebas Neue', cursive;
@@ -184,9 +187,22 @@ transition-duration: 300ms;
 }
 
 .main-layout{
- background-color: var(--blanco);
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--blanco);
 }
 
+/*main layout compra*/
+.main-layout-compra{
+    background-color: var(--gris);
+    margin: 10px;
+    padding: 8px;
+    color: black;
+    border: 2px solid #000000;
+    -webkit-border-radius: 25px 0px 25px 0px;
+    -moz-border-radius: 25px 0px 25px 0px;
+    border-radius: 25px 0px 25px 0px;
+}
 
 @media screen and (max-width: 800px){
 	#menu {position:relative}
@@ -300,3 +316,4 @@ footer{
     color: var(--gris);
     font-size: 12px;
 }
+
